@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(214, 214, 241);
+    margin: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(243, 226, 226),rgb(143, 187, 180),rgb(163, 216, 150));
+}
+.nav-image img{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: end;
+    gap: 70px;
+    list-style-type: none;
+    margin-right: 60px;
+    padding: 10px;
+}
+.nav-items a{
+    padding: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav-items a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.home{
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+}
+.home h1{
+    text-align:center;
+    font-size: 70px;
+    color: cornflowerblue;
+    text-shadow: 3px 3px 3px;
+    color: rgb(9, 163, 184);
+    }
+    .home h2{
+        color: crimson;
+        font-size: 60px;
+        text-align: center;
+    }
+.home h4{
+    text-align: end;
+    font: size 40px; 
+    color: darkslategrey;
+}
+
+.about-container{
+    box-shadow: 5px 5px 5px rgb(178,179,178);
+    height: 550px;
+    border: 30px;
+    border-color: black;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    gap: 70px;
+    color: rgb(197, 6, 197);
+    
+}
+.about-container .images img{
+    width: 400px;
+    height: 450px;
+    border-radius:20px ;
+    
+}
+
+.main-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+
+.tours-container{
+    box-shadow: 5px 5px 5px rgb(178,179,178);
+    width: 30%;
+    height: 450px;
+    border: 30px;
+    border-color: black;
+    
+}
+.tours-container .images img{
+    width: 100%;
+    height: 380px;
+    border-radius:20px ;
+}
+.tours-container p{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px;
+    color: blueviolet;
+}
+.packages-container{
+    box-shadow: 5px 5px 5px rgb(178,179,178);
+    width: 30%;
+    height: 450px;
+    border: 30px;
+    border-color: black;
+}
+.packages-container .images img{
+    width: 100%;
+    height: 380px;
+    border-radius:20px ;
+}
+.packages-container p{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px;
+    color: black;
+}
+.contact-sec{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("co.jpg");
+    background-size:cover ;
+}
+.content h2{
+    font-size: 50px;
+
+}
+.content p{
+    font-size: 40px;
+}
+.box{
+    color: aqua;
+    font-size: 20px;
+}
+.content{
+    text-align: left;
+}
